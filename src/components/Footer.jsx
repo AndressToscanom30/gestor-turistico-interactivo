@@ -6,9 +6,9 @@ const Footer = () => {
             <footer>
                 <p>CONTACTANOS</p>
                 <p>
-                <Link to="#">Facebook</a>
-                <Link to="#">Instagram</a>
-                <Link to="#">X</a>
+                <Link to="#">Facebook</Link>
+                <Link to="#">Instagram</Link>
+                <Link to="#">X</Link>
                 </p>
             </footer>
         </div>
