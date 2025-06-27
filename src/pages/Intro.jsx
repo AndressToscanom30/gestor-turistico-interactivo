@@ -1,14 +1,27 @@
-import './Intro.css';
-
 const Intro = () => {
   return (
-    <div className="intro-container">
-      <div className="video-mask">
-        <video src="/videoFondo.mp4" autoPlay muted loop className="video-in-text" />
-        <h1 className="masked-text">CUCUTA</h1>
-      </div>
+    <div style={{
+      width: '100vw',
+      height: '100vh',
+      backgroundColor: 'black',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center'
+    }}>
+      <video
+        src="/videoFondo.mp4"
+        autoPlay
+        muted
+        loop
+        style={{
+          width: '80%',
+          maxHeight: '80%',
+          objectFit: 'contain'
+        }}
+      />
     </div>
   );
 };
 
 export default Intro;
+
