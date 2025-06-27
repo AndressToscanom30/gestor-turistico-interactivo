@@ -9,7 +9,7 @@ const Intro = () => {
       alignItems: 'center'
     }}>
       <video
-        src="/videoFondo.mp4"
+        src="/intro.mp4"
         autoPlay
         muted
         loop
