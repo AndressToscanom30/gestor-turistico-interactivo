@@ -6,7 +6,7 @@ function CulturaHistoria() {
     <>
       <section className="seccion_cult-historia">
         <div className="img_seccion_cult-historia">
-          <img src="/public/img.PNG" alt="Imagen ilustrativa" />
+          <img src="/public/img.png" alt="Imagen ilustrativa" />
         </div>
         <div className="cont_seccion_cult-historia">
           <h2>Centro Histórico de Cúcuta – Ciudad Fronteriza con Historia</h2>
@@ -29,7 +29,7 @@ function CulturaHistoria() {
           <button>Ver más</button>
         </div>
         <div className="img_seccion_cult-historia">
-          <img src="/public/img.PNG" alt="Otra imagen ilustrativa" />
+          <img src="/public/img.png" alt="Otra imagen ilustrativa" />
         </div>
       </section>
     </>
