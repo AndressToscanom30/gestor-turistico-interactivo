@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
-    <Intro />
     <BrowserRouter basename='/'>
+      <Intro />
       <Navbar />
       <Routes>
         <Route path='/inicio' element={<Inicio />}></Route>
