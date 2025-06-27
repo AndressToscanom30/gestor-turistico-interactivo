@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../NavBar.css';
 
 const  Navbar = () => {
@@ -6,23 +7,23 @@ const  Navbar = () => {
             <nav className="navbar">
                 <div className="logo">LOGO</div>
                 <ul className="nav-links">
-                    <li><a href="/inicio">Inicio</a></li>
+                    <li><Link to="/inicio">Inicio</Link></li>
                     <li className="dropdown">
-                        <a href="#">Rutas turisticas</a>
+                        <Link to="">Rutas turisticas</Link>
                     <ul className="dropdown-content">
-                        <li><a href="/cultura-historia">Cultura e historia</a></li>
-                        <li><a href="/gastro-comercio">Gastronomia y comercio</a></li>
-                        <li><a href="/aventura-verde">Rutas verdes y aventura</a></li>
-                        <li><a href="/turismo-religioso">turismo religiso</a></li>
+                        <li><Link to="/cultura-historia">Cultura e historia</Link></li>
+                        <li><Link to="/gastro-comercio">Gastronomia y comercio</Link></li>
+                        <li><Link to="/aventura-verde">Rutas verdes y aventura</Link></li>
+                        <li><Link to="/turismo-religioso">turismo religiso</Link></li>
                     </ul>
                     </li>
-                    <li><a href="#">Eventos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><Link to="#">Eventos</Link></li>
+                    <li><Link to="#">Contacto</Link></li>
                     <li className="dropdown">
-                        <a href="#">Más servicios</a>
+                        <Link to="#">Más servicios</Link>
                         <ul className="dropdown-content">
-                            <li><a href="#">Hoteles</a></li>
-                            <li><a href="#">Agencias afiliadas</a></li>
+                            <li><Link to="#">Hoteles</Link></li>
+                            <li><Link to="#">Agencias afiliadas</Link></li>
                         </ul>
                     </li>
                 </ul>
