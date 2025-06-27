@@ -1,0 +1,53 @@
+.seccion_cult-historia {
+display: flex;
+max-width: 1000px;
+margin: 50px auto;
+background-color: #fff;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.img_seccion_cult-historia {
+flex: 1;
+}
+
+.img_seccion_cult-historia img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.cont_seccion_cult-historia {
+flex: 1;
+padding: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.cont_seccion_cult-historia h2 {
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+.cont_seccion_cult-historia p {
+font-size: 18px;
+margin-bottom: 30px;
+color: #444;
+}
+
+.cont_seccion_cult-historia button {
+padding: 12px 25px;
+background-color: #007BFF;
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.cont_seccion_cult-historia button:hover {
+background-color: #0056b3;
+}

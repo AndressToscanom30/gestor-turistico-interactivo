@@ -1,0 +1,74 @@
+.carrusel {
+    width: 100vw;
+    max-width: 100%;
+    height: 480px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+.imagenes {
+    display: flex;
+    width: 500%;
+    height: 100%;
+    animation: mover 15s steps(5) infinite;
+}
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100vw); }
+    40% { transform: translateX(-100vw); }
+    45% { transform: translateX(-200vw); }
+    60% { transform: translateX(-200vw); }
+    65% { transform: translateX(-300vw); }
+    80% { transform: translateX(-300vw); }
+    85% { transform: translateX(-400vw); }
+    100% { transform: translateX(-400vw); }
+}
+
+.imagenes img {
+width: 100%;
+}
+
+.figures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.figure {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.figure:hover {
+    transform: scale(1.05);
+}
+
+.figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.figure p {
+    margin: 0.5rem 0;
+}
+
+.figure button {
+    padding: 0.5rem 1rem;
+    background-color: #add8e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.figure button:hover {
+    background-color: #87cefa;
+}
