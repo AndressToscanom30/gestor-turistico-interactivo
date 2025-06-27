@@ -16,10 +16,10 @@ function App() {
 
   return (
     <>
+    <Intro />
     <BrowserRouter basename='/'>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Intro />}></Route>
         <Route path='/inicio' element={<Inicio />}></Route>
         <Route path='/cultura-historia' element={<CulturaHistoria />}></Route>
         <Route path='/gastro-comercio' element={<GastroComercio />}></Route>
