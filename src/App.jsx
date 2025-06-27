@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Inicio from './pages/inicio.jsx';
-import Navbar from './components/NavBar.jsx';
+import Navbar from './components/Navbar.jsx';
 import CulturaHistoria from './pages/CulturaHistoria.jsx';
 import GastroComercio from './pages/GastroComercio.jsx';
 import TurismoReligioso from './pages/TurismoReligioso.jsx';
